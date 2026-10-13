@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summit Cycle Works Browser QA Matrix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Summit Cycle Works Browser QA Matrix</h1>
+    <p>Compatibility checklist for storefront experiences across Chrome, Safari, Firefox, Edge, mobile viewports, keyboard input, reduced motion, and no-JavaScript fallback.</p>
+  </header>
+  <main>
+    <section class="controls" aria-label="Filter test matrix">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="desktop">Desktop</button>
+      <button data-filter="mobile">Mobile</button>
+      <button data-filter="access">Access</button>
+    </section>
+    <section class="matrix" aria-label="Browser compatibility table">
+      <div class="row heading"><span>Scenario</span><span>Chrome</span><span>Safari</span><span>Firefox</span><span>Edge</span></div>
+      <div class="row" data-type="desktop"><span>Responsive collection grid</span><span>Pass</span><span>Pass</span><span>Pass</span><span>Pass</span></div>
+      <div class="row" data-type="mobile"><span>Sticky add-to-cart on touch</span><span>Pass</span><span class="review">Review</span><span>Pass</span><span>Pass</span></div>
+      <div class="row" data-type="desktop"><span>CSS container queries fallback</span><span>Pass</span><span>Pass</span><span>Pass</span><span>Pass</span></div>
+      <div class="row" data-type="access"><span>Keyboard focus order</span><span>Pass</span><span>Pass</span><span>Pass</span><span>Pass</span></div>
+      <div class="row" data-type="access"><span>Reduced motion setting</span><span>Pass</span><span>Pass</span><span>Pass</span><span>Pass</span></div>
+      <div class="row" data-type="mobile"><span>Viewport units on mobile browser chrome</span><span>Pass</span><span class="review">Review</span><span>Pass</span><span>Pass</span></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
