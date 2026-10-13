@@ -14,5 +14,13 @@ Production: https://summit-cycle-browser-qa.vercel.app
 ## Stack
 
 - HTML, CSS, JavaScript
-- GitHub Pages hosting
+- Vercel hosting
+
+## Local Operations
+
+```bash
+npm run start
+```
+
+The QA matrix is served as a static compatibility interface and can be deployed directly through Vercel.
 

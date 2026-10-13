@@ -1,0 +1,12 @@
+{
+  "name": "summit-cycle-browser-qa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "build": "node -e \"console.log('Static QA matrix ready for Vercel')\""
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
